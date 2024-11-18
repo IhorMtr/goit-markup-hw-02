@@ -1,6 +1,7 @@
 body {
   font-family: Roboto, sans-serif;
   color: #434455;
+  background-color: #FFFFFF;
 }
 
 a {
@@ -22,10 +23,12 @@ header a {
   line-height: 150%;
   letter-spacing: 0.02em;
 }
+header address {
+  font-style: normal;
+}
 header address a {
   font-weight: 400;
   color: #434455;
-  font-style: normal;
 }
 
 nav a {
@@ -33,21 +36,40 @@ nav a {
   color: #2E2F42;
 }
 
-button {
+.nav-ul-a:hover {
+  color: #404BBF;
+}
+.nav-ul-a:focus {
+  color: #404BBF;
+}
+
+.header-address-a:hover {
+  color: #404BBF;
+}
+.header-address-a:focus {
+  color: #404BBF;
+}
+
+.first-section-button {
   cursor: pointer;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4D5AE5;
   border-radius: 4px;
   padding: 16px 32px;
-  width: 169px;
-  height: 56px;
+  line-height: 1.5;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.04em;
   color: #FFFFFF;
 }
+.first-section-button:hover {
+  background-color: #404BBF;
+}
+.first-section-buttonfocus {
+  background-color: #404BBF;
+}
 
-h1 {
+.first-section-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 107%;
@@ -87,6 +109,7 @@ p {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
 }
 
 .header-page-logo-studio {
@@ -97,7 +120,7 @@ p {
   color: #F4F4FD;
 }
 
-footer p {
+.footer p {
   color: #F4F4FD;
 }
 
