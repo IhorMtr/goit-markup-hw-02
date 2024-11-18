@@ -1,0 +1,117 @@
+$iris: #4D5AE5;
+$navy-blue: #2E2F42;
+$cloud: #F4F4FD;
+$slate: #434455;
+$white: #FFFFFF;
+body {
+  font-family: Roboto, sans-serif;
+  color: $slate;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer, .first-section {
+  background-color: $navy-blue;
+}
+
+header {
+  a {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+  }
+
+  address {
+    a {
+      font-weight: 400;
+      color: $slate;
+      font-style: normal;
+    }
+  }
+}
+
+nav {
+  a {
+    font-weight: 500;
+    color: $navy-blue;
+  }
+}
+
+
+button {
+  cursor: pointer;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: $iris;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: $white;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: $white;
+}
+
+h2, h3 {
+  color: $navy-blue;
+  letter-spacing: 0.02em;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+
+.header-page-logo, .footer-page-logo {
+  color: $iris;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.header-page-logo-studio {
+  color: $navy-blue;
+}
+
+.footer-page-logo-studio {
+  color: $cloud;
+}
+
+footer {
+  p {
+    color: $cloud;
+  }
+}
