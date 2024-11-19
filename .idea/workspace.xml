@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eb178cf-c951-460f-bdd1-5542d22e0eb5" name="Changes" comment="few changes">
+    <list default="true" id="1eb178cf-c951-460f-bdd1-5542d22e0eb5" name="Changes" comment="more changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css.map" afterDir="false" />
@@ -87,7 +87,7 @@
       <workItem from="1731247973485" duration="60000" />
       <workItem from="1731248042465" duration="803000" />
       <workItem from="1731951651725" duration="6584000" />
-      <workItem from="1732039640596" duration="316000" />
+      <workItem from="1732039640596" duration="1547000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -113,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731957671484</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="more changes">
+      <option name="closed" value="true" />
+      <created>1732040264482</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732040264482</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +142,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="first commit" />
     <MESSAGE value="few changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="few changes" />
+    <MESSAGE value="more changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="more changes" />
   </component>
 </project>

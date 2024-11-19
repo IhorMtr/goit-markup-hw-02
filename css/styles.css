@@ -8,7 +8,7 @@ a {
   text-decoration: none;
 }
 
-footer, .first-section {
+footer, .preview-section {
   background-color: #2E2F42;
 }
 
@@ -44,9 +44,8 @@ nav a {
   color: #404BBF;
 }
 
-.first-section-button {
+.preview-section-button {
   cursor: pointer;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4D5AE5;
   line-height: 1.5;
   font-weight: 500;
@@ -54,14 +53,14 @@ nav a {
   letter-spacing: 0.04em;
   color: #FFFFFF;
 }
-.first-section-button:hover {
+.preview-section-button:hover {
   background-color: #404BBF;
 }
-.first-section-button:focus {
+.preview-section-button:focus {
   background-color: #404BBF;
 }
 
-.first-section-title {
+.preview-section-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 107%;
@@ -120,9 +119,13 @@ p {
   background-color: #F4F4FD;
 }
 
-.third-section-title {
+.our-team-section-title, .project-section-title {
   text-align: center;
   text-transform: capitalize;
+}
+
+.our-team-section-li {
+  background-color: #FFFFFF;
 }
 
 /*# sourceMappingURL=styles.css.map */
