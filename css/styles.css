@@ -8,12 +8,14 @@ a {
   text-decoration: none;
 }
 
+ul, ol {
+  list-style: none;
+}
+
 footer, .preview-section {
   background-color: #2E2F42;
 }
-ul, ol{
-  list-style: none;
-}
+
 header a {
   font-size: 16px;
   line-height: 150%;
